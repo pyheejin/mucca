@@ -1,10 +1,211 @@
+#root {
+  margin: 0 300px;
+}
+
 .App {
+  margin-top: 0;
+  width: 100%;
+  min-width: 980px;
+  font-size: 14px;
+  font-family: Arial,Helvetica,sans-serif;
+  padding: 1rem;
+  float: left;
+  max-width: 1480px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a.login:visited {
+  color: #fff;
+}
+
+form {
   text-align: center;
+  padding: 40px;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+button {
+  width: 300px;
+  height: 40px;
+  border: 1px solid rgba(225, 83, 60, 1);
+  color: white;
+  background: rgba(225, 83, 60, 1);
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 29px;
+  color: rgba(225, 83, 60, 1);
+}
+
+header {
+  margin: 0 auto;
+}
+
+ul {
+  list-style:none;
+  float: right;
+  margin-top: 37px;
+}
+
+li {
+  float: left;
+  width: 80px;
+  text-align: center;
+  padding-top:10px;
+  border-top: 1px solid black;
+  margin-right: 10px;
+}
+
+.login li {
+  background: rgba(225, 83, 60, 1);
+  color: #fff;
+  padding: 0;
+  padding: 5px;
+  border: none;
+  font-weight: 500;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.Container {
+  margin: 20px 80px;
+}
+
+.section-left {
+  display: inline-block;
+}
+
+.section-right {
+  display: inline-block;
+  border-top: 2px dotted rgba(225, 83, 60, 1);
+  border-bottom: 2px dotted rgba(225, 83, 60, 1);
+  padding: 30px 0;
+  vertical-align: bottom;
+}
+
+.section-right span {
+  font: normal normal bold 100px/1em Anton,sans-serif;
+  letter-spacing: normal;
+  font-weight: 900;
+  word-spacing: 4px;
+  letter-spacing: -10px;
+  border-top: 2px dotted rgba(225, 83, 60, 1);
+  padding-top: 50px;
+}
+
+.section-right p {
+  font: normal normal bold 50px/1em Arial,'ｍｓ ｐゴシック','ms pgothic','돋움',dotum,helvetica,sans-serif;
+  letter-spacing: normal;
+  font-weight: 700;
+  margin: 0;
+}
+
+.section-right div {
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  border-bottom: 2px dotted rgba(225, 83, 60, 1);
+}
+
+.event {
+  border-top: 2px dotted rgba(225, 83, 60, 1);
+}
+
+.volunteer-left {
+  width: 49%;
+  display: inline-block;
+  border-right: 2px dotted rgba(225, 83, 60, 1);
+  padding-right: 8px;
+}
+
+.prl-20 {
+  padding: 0 20px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.event-left {
+  width: 49%;
+  display: inline-block;
+  padding-right: 8px;
+}
+
+.event-right {
+  width: 49%;
+  display: inline-block;
+  padding-right: 8px;
+}
+
+.volunteer-left h1, .volunteer-right h1 {
+  font-size: 29px;
+  color: rgba(225, 83, 60, 1);
+}
+
+.volunteer-left p {
+  font-size: 14px;
+}
+
+.volunteer-right {
+  width: 50%;
+  display: inline-block;
+}
+
+.volunteer-right img {
+  width: 30%;
+}
+
+.volunteer-right div {
+  width: 70%;
+}
+
+.volunteer-right h1 {
+  display: inline-block;
+}
+
+.volunteer-right div, .volunteer-right span {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.slider {
+  padding: 0 60px;
+}
+
+.adoptable {
+  width: 40%;
+  display: inline-block;
+}
+
+.left {
+  margin-right: 189px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
